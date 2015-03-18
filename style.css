@@ -1,3 +1,8 @@
+/*html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}*/
+
 h2 {
 	font-family: 'Cinzel Decorative', serif;
 	font-weight: normal;
@@ -56,5 +61,6 @@ a:hover {
 	width: 100%;
 	max-width: 400px;
 	display: inline-block;
-	padding: 0 20px 60px 20px;
+	vertical-align: middle;
+	padding: 30px 20px 30px 20px;
 }
