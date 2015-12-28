@@ -1,7 +1,8 @@
-/*html { 
-  background: url(bg.jpg) no-repeat center center fixed; 
-  background-size: cover;
-}*/
+body {
+	margin: 0;
+	background-color: #ecf0f1;
+	color: #231c22;
+}
 
 h2 {
 	font-family: 'Cinzel Decorative', serif;
@@ -19,8 +20,8 @@ h3 {
 
 h4 {
 	font-family: "Halant", serif;
-	font-weight: 300;
-	font-size: 18px;
+	font-weight: 400;
+	font-size: 16px;
 	margin: -10px 0 10px 0;
 }
 
@@ -31,10 +32,23 @@ h5 {
 	margin: 0;
 }
 
+p {
+	font-family: "Halant", serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0;
+}
+
+strong {
+	font-weight: 600;
+}
+
 a {
 	text-decoration: none;
-	color: #074;
+	color: #231c22;
 	transition: opacity 0.3s;
+	border-style: solid;
+	border-width: 0 0 1px 0;
 }
 
 a:hover {
@@ -42,18 +56,96 @@ a:hover {
 }
 
 #container {
-	margin: 0 auto 0 auto;
+	margin: 0;
+}
+
+#navigation {
 	box-sizing: border-box;
-	padding: 0 30px 0 30px;
+	position: absolute;
+	padding: 50px 50px 0 50px;
+	width: 100%;
+}
+
+#navigation ul {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+#navigation ul li {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+
+#nav {
+	position: relative;
+	float: left;
+}
+
+#social {
+	position: relative;
+	float: right;
+}
+
+.section {
+	box-sizing: border-box;
+	margin: 0 0 0 0;
+	padding: 60px 10px 60px 10px;
 	text-align: center;
 	width: 100%;
-	max-width: 960px;
+}
+
+#logo_section {
+	background-color: #ecf0f1;
+	padding: 0 30px 0 30px;
+	height: 700px;
 }
 
 #logo {
-	margin: 120px auto 80px auto;
+	margin: 240px auto 0 auto;
 	width: 100%;
 	max-width: 600px;
+}
+
+#ents {
+	text-align: left;
+	padding: 60px;
+
+
+	background-color: #dc5678;
+	color: #ecf0f1;
+}
+
+#ents a {
+	color: #ecf0f1;
+}
+
+#staffing {
+	text-align: left;
+	padding: 60px;
+
+
+	background-color: #b31057;
+	color: #ecf0f1;
+}
+
+#ticketing {
+	text-align: left;
+	padding: 60px;
+
+
+	background-color: #7f0345;
+	color: #ecf0f1;
+}
+
+#committee {
+	background-color: #231c22;
+	color: #ecf0f1;
+}
+
+#committee a {
+	color: #838586;
+	border: none;
 }
 
 .group {
@@ -63,4 +155,10 @@ a:hover {
 	display: inline-block;
 	vertical-align: middle;
 	padding: 30px 20px 30px 20px;
+}
+
+@media screen and (max-width: 400px) {
+    #navigation {
+		padding: 50px 10px 0 10px;
+	}
 }
