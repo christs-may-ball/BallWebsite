@@ -196,6 +196,19 @@ ul
 	color: #ecf0f1;
 }
 
+#sponsor {
+	text-align: left;
+	padding: 60px;
+
+
+	background-color: #540e31;
+	color: #ecf0f1;
+}
+
+#sponsor a {
+	color: #ecf0f1;
+}
+
 #committee {
 	background-color: #231c22;
 	color: #ecf0f1;
