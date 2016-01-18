@@ -124,7 +124,7 @@ ul
 	color: #ecf0f1;
 }
 
-#ents a {
+#ents a, #staffing a, #ticketing a, #sponsor a {
 	color: #ecf0f1;
 }
 
@@ -137,11 +137,7 @@ ul
 	color: #ecf0f1;
 }
 
-#staffing a {
-	color: #ecf0f1;
-}
-
-#applications, #more {
+#applications, #more, #terms, #faq {
 	padding-top: 30px;
 }
 
@@ -196,16 +192,30 @@ ul
 	color: #ecf0f1;
 }
 
+#faqs {
+	padding-top: 0;
+}
+
+#faqs h4{
+	font-family: "Halant", serif;
+	font-weight: 300;
+	font-size: 20px;
+	font-style: italic;
+	margin: 10px 0 0 0;
+}
+
+#faqs p{
+	font-family: "Halant", serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
 #sponsor {
 	text-align: left;
 	padding: 60px;
 
 
 	background-color: #540e31;
-	color: #ecf0f1;
-}
-
-#sponsor a {
 	color: #ecf0f1;
 }
 
