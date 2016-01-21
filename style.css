@@ -1,14 +1,15 @@
 body {
 	margin: 0;
-	background-color: #ecf0f1;
+	background-color: #fff;
 	color: #231c22;
 }
 
 h2 {
-	font-family: 'Cinzel Decorative', serif;
+	font-family: 'Scriptina', serif;
 	font-weight: normal;
-	font-size: 26px;
-	margin: 0 0 10px 0;
+	font-size: 34px;
+	color: #ff5c81;
+	margin: 0 0 -10px 0;
 }
 
 h3 {
@@ -104,45 +105,69 @@ ul
 }
 
 #logo_section {
-	background-color: #ecf0f1;
 	padding: 0 30px 0 30px;
 	height: 700px;
 }
 
 #logo {
-	margin: 240px auto 0 auto;
+	margin: 160px auto 0 auto;
 	width: 100%;
-	max-width: 600px;
+	max-width: 700px;
 }
 
-#ents {
-	text-align: left;
-	padding: 60px;
-
-
-	background-color: #dc5678;
-	color: #ecf0f1;
+#art {
+	background: url(background.jpg) no-repeat center center scroll;
+	background-size: cover;
+	color: #fff;
 }
 
-#ents a, #staffing a, #ticketing a, #sponsor a {
+#art p {
+	font-size: 20px;
+}
+
+.text_block {
+	width: 100%;
+	max-width: 700px;
+	margin: auto;
+	padding: 12% 30px 9% 30px;
+	box-sizing: border-box;
+}
+
+.text_block em {
+	display: inline-block;
+	color: #ff5c81;
+	font-size: 24px;
+	margin: 0 0 40px 0;
+	padding-top: 80px;
+}
+
+#ball {
+	padding: 60px 60px 120px 60px;
+}
+
+#staffing a {
 	color: #ecf0f1;
 }
 
 #staffing {
-	text-align: left;
-	padding: 60px;
+	padding: 120px 60px 120px 60px;
 
 
-	background-color: #b31057;
+	background-color: #ff5c81;
 	color: #ecf0f1;
 }
 
-#applications, #more, #terms, #faq {
-	padding-top: 30px;
+#more {
+	margin-left: 12px;
+}
+
+#applications, #sponsorship {
+	margin-top: 30px;
 }
 
 #rolls {
 	padding-top: 45px;
+	text-align: left;
 }
 
 #rolls li {
@@ -183,47 +208,6 @@ ul
 	}
 }
 
-#ticketing {
-	text-align: left;
-	padding: 60px;
-
-
-	background-color: #7f0345;
-	color: #ecf0f1;
-}
-
-#faqs {
-	padding-top: 0;
-}
-
-#faqs h4{
-	font-family: "Halant", serif;
-	font-weight: 300;
-	font-size: 20px;
-	font-style: italic;
-	margin: 20px 0 0 0;
-}
-
-#faqs p{
-	font-family: "Halant", serif;
-	font-weight: 300;
-	font-size: 16px;
-}
-
-#sponsor {
-	text-align: left;
-	padding: 60px;
-
-
-	background-color: #540e31;
-	color: #ecf0f1;
-}
-
-#committee {
-	background-color: #231c22;
-	color: #ecf0f1;
-}
-
 #committee a {
 	color: #838586;
 	border: none;
@@ -242,4 +226,35 @@ ul
     #navigation {
 		padding: 50px 10px 0 10px;
 	}
+}
+
+#ticketing {
+	padding: 60px;
+}
+
+#ticketing h3{
+	text-align: center;
+	margin: 120px 0 140px 0;
+	color: #ff5c81;
+	font-size: 40px;
+}
+
+#ticketing h4 {
+	text-align: left;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+#faqs h4{
+	font-family: "Halant", serif;
+	font-weight: 300;
+	font-size: 20px;
+	font-style: italic;
+	margin: 20px 0 0 0;
+}
+
+#faqs p{
+	font-family: "Halant", serif;
+	font-weight: 300;
+	font-size: 16px;
 }
