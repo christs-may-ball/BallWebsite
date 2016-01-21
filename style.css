@@ -243,11 +243,20 @@ ul
 	padding: 60px;
 }
 
-#ticketing h3{
+#ticketing h3, #ticketing h5{
 	text-align: center;
 	margin: 120px 0 140px 0;
 	color: #ff5c81;
 	font-size: 40px;
+}
+
+#ticketing h5{
+	margin-top: -120px;
+}
+
+#ticketing h5 a{
+	color: #ff5c81;
+	font-size: 34px;
 }
 
 #ticketing h4 {
