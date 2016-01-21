@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'scriptinaregular';
+    src: url('scriptina-webfont.eot');
+    src: url('scriptina-webfont.eot?#iefix') format('embedded-opentype'),
+         url('scriptina-webfont.woff') format('woff'),
+         url('scriptina-webfont.ttf') format('truetype'),
+         url('scriptina-webfont.svg#scriptinaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	margin: 0;
 	background-color: #fff;
@@ -5,7 +16,7 @@ body {
 }
 
 h2 {
-	font-family: 'Scriptina', serif;
+	font-family: 'scriptinaregular', serif;
 	font-weight: normal;
 	font-size: 34px;
 	color: #ff5c81;
