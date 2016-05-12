@@ -179,11 +179,11 @@ ul
 }
 
 #applications, #sponsorship {
-	margin-top: 30px;
+	margin: 30px 0 30px 0;
 }
 
 #rolls {
-	padding-top: 45px;
+	padding-top: 15px;
 	text-align: left;
 }
 
