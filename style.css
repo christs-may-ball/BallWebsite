@@ -128,8 +128,9 @@ ul
 
 #sponsor {
 	margin: 0 auto 0 auto;
+	padding: 0 20px 0 20px;
 	width: 80%;
-	max-width: 280px;
+	max-width: 250px;
 }
 
 #art {
