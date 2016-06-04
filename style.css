@@ -68,6 +68,10 @@ a:hover {
 	opacity: 0.6;
 }
 
+.imglink {
+	border: none;
+}
+
 ul
 {
     list-style: none;
@@ -126,7 +130,7 @@ ul
 	max-width: 700px;
 }
 
-#sponsor {
+.sponsor {
 	margin: 0 auto 0 auto;
 	padding: 0 20px 0 20px;
 	width: 80%;
@@ -224,6 +228,59 @@ ul
 	.left, .right {
 		padding: 0;
 	}
+}
+
+#conkerinfo {
+	margin: 80px -60px 80px -60px;
+	padding: 120px 0 120px 0;
+	background-color: #fff;
+	color: #231c22;
+}
+
+#conkerproduct {
+	max-width: 300px;
+	margin-top: 40px;
+}
+
+#conkerinfo #text {
+	display: inline-block;
+	margin:auto;
+	max-width: 680px;
+	padding: 0 40px;
+}
+
+#conkerinfo #text img {
+	margin-bottom: 40px;
+}
+
+#conkerinfo #text #sign {
+	margin-top: 40px;
+	margin-bottom: 0;
+	max-width: 100px;
+}
+
+#conkerinfo p {
+	margin: 20px 0;
+}
+
+#conkerinfo p em {
+	color: #ff5c81;
+}
+
+#conkerinfo .dash {
+	height: 1px;
+	width: 40px;
+	background-color: #231c22;
+	margin: 20px auto;
+}
+
+#conkerinfo #link {
+	margin-top: 40px;
+}
+
+#conkerinfo #link a {
+	color: #ff5c81;
+	size: 12px;
 }
 
 #committee a {
