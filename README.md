@@ -1,5 +1,7 @@
 # Christ's College May Ball Website
 
+http://christsmayball.com
+
 This is the source for the Christ's May Ball Website starting from 2016.
 
 The website is hosted on GitHub Pages constituting only of static HTML.
