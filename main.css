@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   text-transform: uppercase;
@@ -12,8 +16,42 @@ body {
   background-position: center;
 }
 
+h1 {
+  line-height: 5vw;
+}
+
+.title .contain-bottom {
+  position: relative;
+}
+
+.landing .bottom-line {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.landing .date {
+  font-size: 2em;
+}
+
 .christs {
   font-size: 8vw;
+  margin-bottom: 0;
+}
+
+.box-with-text {
+  background-image: url(resources/smoke_header.png);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.mayball {
+  padding: 0;
+  margin: 0;
+  font-size: 6vw;
 }
 
 .landing {
@@ -40,13 +78,27 @@ body {
 }
 
 .nav {
+  color: white;
   position: fixed;
+  right: 0;
+  font-size: 1.5vw;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
+.nav a {
+  text-decoration: none;
+}
+
+.nav p {
+  text-decoration: none;
+}
 .smoke-header {
   width: 100%;
   position: fixed;
   opacity: 88%;
+  pointer-events: none;
 }
 
 /* ENQUIRIES */
@@ -75,30 +127,6 @@ body {
   text-decoration: none;
 }
 
-/* .container {
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-   padding-top: 2%;
-  padding-left: 15%;
-  padding-right: 15%;
-  margin: -10px 0 0 -10px; 
-   position: relative; 
-  flex-flow: row wrap;
-  align-content: center;
-  left: 50%;
-  transform: translate(-50%, 0%);
-}
-
-.item {
-  color: white;
-  display: inline-block;
-  padding: 20px;
-  width: 150px;
-  height: 200px;
-  flex-basis: 14%;
-  flex-grow: 0.1;
-} */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -110,8 +138,13 @@ body {
   flex-flow: row wrap;
 }
 
+.container div a {
+  color: white;
+  text-decoration: none;
+}
+
 .enquiries h2 {
-  font-size: 100px;
+  font-size: 4em;
 }
 
 .item {
@@ -138,7 +171,7 @@ body {
 }
 
 .workers h2 {
-  font-size: 5vw;
+  font-size: 4em;
 }
 
 .workers .workers-text {
