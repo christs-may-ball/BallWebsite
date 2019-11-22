@@ -29,8 +29,11 @@ h1 {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0%);
-  margin-bottom: 10px;
+  margin-bottom: 3%;
   font-size: 1.5em;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .landing .date {
@@ -38,8 +41,10 @@ h1 {
 }
 
 .christs {
-  font-size: 8vw;
+  font-size: 8.5em;
   margin-bottom: 0;
+  letter-spacing: 0.2em;
+  margin-right: -0.2em;
 }
 
 .box-with-text {
@@ -52,6 +57,9 @@ h1 {
   padding: 0;
   margin: 0;
   font-size: 6vw;
+  letter-spacing: 0.1em;
+  margin-right: -0.1em;
+  font-size: 5.7em;
 }
 
 .landing {
@@ -99,6 +107,7 @@ h1 {
   position: fixed;
   opacity: 88%;
   pointer-events: none;
+  z-index: 0;
 }
 
 /* ENQUIRIES */
@@ -109,14 +118,19 @@ h1 {
   background-image: url("resources/smoke_bg.png");
   background-size: cover;
   height: max-content;
-  /* width:100%; */
   display: inline-block;
   width: 100%;
+  min-height: 100vh;
 }
 
 .enquiries h2 {
   color: white;
   font-size: 5vw;
+}
+
+.e-header-div {
+  position: relative;
+  z-index: 10;
 }
 
 .enquiries p {
