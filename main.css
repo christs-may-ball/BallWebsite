@@ -1,6 +1,6 @@
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   text-align: center;
@@ -29,7 +29,7 @@ h1 {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0%);
-  margin-bottom: 3%;
+  margin-bottom: 4%;
   font-size: 1.5em;
   letter-spacing: 0.1em;
   overflow: hidden;
@@ -51,6 +51,7 @@ h1 {
   background-image: url(resources/smoke_header.png);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .mayball {
@@ -136,10 +137,22 @@ h1 {
 .enquiries p {
   color: white;
 }
+
 .enquiries p a {
   color: white;
   text-decoration: none;
 }
+
+/* .container-container-container {
+  height: 100%;
+  position: relative;
+}
+
+.container-container {
+  top: 50%;
+  position: absolute;
+  transform: translate(0%, -50%);
+} */
 
 .container {
   display: flex;
@@ -150,6 +163,7 @@ h1 {
   margin: -10px 0 0 -10px;
   position: relative;
   flex-flow: row wrap;
+  /* top: 30%; */
 }
 
 .container div a {
@@ -165,8 +179,6 @@ h1 {
   color: white;
   display: inline-block;
   padding: 20px;
-  width: 150px;
-  height: 200px;
   margin: 10px 0 0 1%;
   flex-basis: 15%;
   flex-grow: 1;
@@ -226,4 +238,24 @@ h1 {
 .header div a {
   color: white;
   z-index: -1000;
+}
+
+@media only screen and (max-device-width: 800px) {
+  .nav {
+    font-size: 1.16em;
+  }
+  .smoke-header {
+    position: fixed;
+    opacity: 88%;
+    pointer-events: none;
+    z-index: 0;
+    height: 17vh;
+  }
+
+  .mayball {
+    font-size: 2.55em;
+  }
+  .christs {
+    font-size: 3.8em;
+  }
 }
