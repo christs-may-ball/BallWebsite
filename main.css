@@ -1,16 +1,102 @@
 body {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serenity, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   padding: 0;
   margin: 0;
+  background-image: url("resources/globe-4.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-div {
-  padding: 10px;
+.christs {
+  font-size: 8vw;
+}
+
+.title {
+  top: 50%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.header {
+  height: auto;
+  text-align: left;
+}
+
+.landing {
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
+  height: 100%;
 }
 
 .enquiries {
   background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("resources/smoke_bg.png");
+  background-size: cover;
+}
+
+.smoke-header {
+  width: 100%;
+  position: fixed;
+  opacity: 88%;
 }
 
 .enquiries h2 {
   color: white;
+}
+
+.btn {
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: serenity, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.default {
+  border-color: #0c0808;
+  color: black;
+  padding: 5px;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: -10px 0 0 -10px;
+  position: relative;
+  flex-flow: row wrap;
+}
+
+.container h2 {
+  font-size: 100px;
+}
+
+.item {
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  width: 150px;
+  height: 200px;
+  margin: 10px 0 0 1%;
+  flex-basis: 15%;
+  flex-grow: 1;
 }
