@@ -52,6 +52,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  border: none;
 }
 
 .mayball {
@@ -184,6 +185,15 @@ h1 {
   flex-basis: 15%;
   flex-grow: 1;
   text-decoration: none;
+}
+
+.head {
+  font-weight: 200;
+}
+
+.department {
+  font-weight: 400;
+  font-size: 1.2em;
 }
 
 .item img {
