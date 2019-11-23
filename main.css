@@ -267,4 +267,12 @@ h1 {
   .christs {
     font-size: 3.8em;
   }
+
+  .smoke-header {
+    z-index: 1;
+  }
+
+  .e-header-div {
+    z-index: 0;
+  }
 }
