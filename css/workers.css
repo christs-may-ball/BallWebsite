@@ -193,4 +193,12 @@ a:hover {
   .roles p {
     padding: 0 10px 0 10px;
   }
+
+  .role-desc {
+    font-size: 1.35em
+  }
+
+  .role-title {
+    font-size: 1.5em
+  }
 }
