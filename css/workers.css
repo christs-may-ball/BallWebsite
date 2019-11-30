@@ -1,0 +1,154 @@
+body {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serenity, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  background: url('../resources/smoke_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Roles */
+a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.roles p {
+  text-decoration: none;
+}
+
+.btn {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 1em 1em;
+  margin: 2em;
+  font-size: 1.5em;
+  cursor: pointer;
+  font-family: serenity, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: capitalize;
+  width: 15%;
+}
+
+.default {
+  border-color: white;
+  color: white;
+  padding: 5px;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+.anikroy {
+  position: relative;
+  height: 100%;
+}
+
+
+.roles {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.roles h2 {
+  color: white;
+  font-size: 5em;
+}
+
+.r-header-div {
+  position: relative;
+  z-index: 10;
+}
+  
+.info {
+  color: white;
+  text-transform: lowercase;
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.role {
+    color: white;
+    display: inline-block;
+    padding: 1.5em;
+    margin: 1em 0 0 1%;
+    flex-basis: 15%;
+    flex-grow: 1;
+    text-decoration: none;
+    text-align: center;
+}
+
+.role p {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.rolelogo {
+    width: 9em;
+    height: 9em;
+}
+
+.role-section{
+  margin: 5vw;
+  color: white;
+  position: relative
+}
+
+
+.role-section p {
+  text-transform: lowercase;
+  font-weight: 200;
+  font-size: 2em;
+  margin-top: 2vw;
+}
+
+.manager-text {
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.role-desc {
+  text-align: justify;
+  text-transform: none !important;
+}
+
+.role-title {
+  text-align: left;
+}
+
+.row{
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+.container {
+  margin-top: 5vw;
+}
+
+.fixed-button {
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+}
+.fixed-button a{
+  color: white
+}
+#back-up-icon{
+  font-size:2em;
+  margin: 10px 10px 10px 10px
+}

@@ -115,6 +115,7 @@ h1 {
 
 /* ENQUIRIES */
 .enquiries {
+  position: relative;
   background-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -124,6 +125,12 @@ h1 {
   display: inline-block;
   width: 100%;
   min-height: 100vh;
+}
+
+.mlismbp{
+  font-size: 1.2em;
+  color: white;
+  font-weight: 200;
 }
 
 .enquiries h2 {
@@ -137,6 +144,7 @@ h1 {
 }
 
 .enquiries p {
+  font-size: 1.2em;
   color: white;
 }
 
@@ -214,6 +222,7 @@ h1 {
 }
 
 .workers .workers-text {
+  font-size: 1.4em;
   width: 30em;
   letter-spacing: 0.2em;
   position: absolute;
@@ -223,7 +232,7 @@ h1 {
 }
 
 .workers h2 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .workers-buttons {
@@ -270,6 +279,45 @@ h1 {
 
 /* Roles */
 
+.roles {
+  position: relative;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("../resources/smoke_bg.png");
+  background-size: cover;
+  height: max-content;
+  display: inline-block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.inner {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.roles h2 {
+  color: white;
+  font-size: 5vw;
+}
+
+.roles p {
+  color: white;
+}
+
+.roles p a {
+  color: white;
+  text-decoration: none;
+}
+
+.roles h2 {
+  font-size: 4em;
+}
+
 .r-header-div {
   position: relative;
   z-index: 10;
@@ -294,6 +342,8 @@ h1 {
 }
 
 .role p {
+  font-size: 1.5em;
+  font-weight: 200;
 }
 
 .rolelogo {
@@ -318,6 +368,7 @@ h1 {
     font-size: 2.55em;
   }
 
+
   .christs {
     font-size: 3.8em;
   }
@@ -328,5 +379,13 @@ h1 {
 
   .e-header-div {
     z-index: 0;
+  }
+
+  .enquiries h2 {
+    font-size: 3em;
+  }
+  
+  .workers .workers-text {
+    width: 22em;    
   }
 }
