@@ -14,8 +14,8 @@ body {
 }
 
 /* Roles */
-a:hover{
-  color:white;
+a:hover {
+  color: white;
   text-decoration: none;
 }
 
@@ -64,14 +64,14 @@ a:hover{
 
 .roles h2 {
   color: white;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .r-header-div {
   position: relative;
   z-index: 10;
 }
-  
+
 .info {
   color: white;
   text-transform: lowercase;
@@ -81,27 +81,27 @@ a:hover{
 }
 
 .role {
-    color: white;
-    display: inline-block;
-    padding: 1.5em;
-    margin: 1em 0 0 1%;
-    flex-basis: 15%;
-    flex-grow: 1;
-    text-decoration: none;
-    text-align: center;
+  color: white;
+  display: inline-block;
+  padding: 1.5em;
+  margin: 1em 0 0 1%;
+  flex-basis: 15%;
+  flex-grow: 1;
+  text-decoration: none;
+  text-align: center;
 }
 
 .role p {
-    font-size: 1.5em;
-    font-weight: 200;
+  font-size: 1.5em;
+  font-weight: 200;
 }
 
 .rolelogo {
-    width: 9em;
-    height: 9em;
+  width: 9em;
+  height: 9em;
 }
 
-.role-section{
+.role-section {
   margin: 5vw;
   color: white;
   position: relative
@@ -130,8 +130,8 @@ a:hover{
   text-align: left;
 }
 
-.row{
-  margin-top:15px;
+.row {
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -143,12 +143,14 @@ a:hover{
   color: white;
   position: fixed;
   bottom: 0px;
-  right: 0px; 
+  right: 0px;
 }
-.fixed-button a{
+
+.fixed-button a {
   color: white
 }
-#back-up-icon{
-  font-size:2em;
+
+#back-up-icon {
+  font-size: 2em;
   margin: 10px 10px 10px 10px
 }
