@@ -152,6 +152,7 @@ a:hover {
   position: fixed;
   bottom: 0px;
   right: 0px;
+  z-index: 10;
 }
 
 .fixed-button a {
@@ -174,8 +175,10 @@ a:hover {
 
 .hrule-container {
   width: 100%;
-  padding: 10px text-align: center;
+  padding: 10px;
+  text-align: center;
 }
+
 
 @media only screen and (max-device-width: 800px) {
   .rolelogo {
