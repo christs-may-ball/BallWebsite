@@ -60,6 +60,9 @@
     <div class="fixed-button">
         <a href="#top"><i id="back-up-icon" class="fas fa-arrow-up"></i></a>
     </div>
+    <div class="hrule-container">
+        <div class="hrule"></div>
+    </div>
     <div class="all-roles">
         <div id="managers" class="role-section type-managers">
             <img class="rolelogo" src="resources/manager.svg" />
@@ -350,7 +353,9 @@
         </div>
     </div>
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 120
+        });
     </script>
 
 </body>

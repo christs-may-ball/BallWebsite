@@ -13,6 +13,10 @@ body {
   background-position: center;
 }
 
+.all-roles {
+  margin-top: 50px;
+}
+
 /* Roles */
 a:hover {
   color: white;
@@ -159,6 +163,19 @@ a:hover {
   margin: 10px 10px 10px 10px
 }
 
+.hrule {
+  background-color:
+    white;
+  height: 0.2em;
+  border-radius: 2px;
+  width: 70%;
+  display: inline-block;
+}
+
+.hrule-container {
+  width: 100%;
+  padding: 10px text-align: center;
+}
 
 @media only screen and (max-device-width: 800px) {
   .rolelogo {
@@ -168,5 +185,9 @@ a:hover {
 
   .roles h2 {
     font-size: 3em;
+  }
+
+  .roles p {
+    padding: 0 10px 0 10px;
   }
 }
