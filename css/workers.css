@@ -47,19 +47,11 @@ a:hover {
   background: #e7e7e7;
 }
 
-.anikroy {
+.top {
   position: relative;
-  height: 100%;
 }
 
 
-.roles {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .roles h2 {
   color: white;
@@ -68,7 +60,7 @@ a:hover {
 
 .r-header-div {
   position: relative;
-  z-index: 10;
+  margin-top: 20px;
 }
 
 .info {
@@ -90,9 +82,19 @@ a:hover {
   text-align: center;
 }
 
-.role p {
+.col-sm {
+  text-decoration: none;
+  text-align: center;
+  margin: 1em 0 0 1%;
+  color: white;
+
+
+}
+
+.col-sm p {
   font-size: 1.5em;
   font-weight: 200;
+  margin-top: 15px;
 }
 
 .rolelogo {
@@ -110,23 +112,26 @@ a:hover {
 .role-section p {
   text-transform: lowercase;
   font-weight: 200;
-  font-size: 2em;
+  font-size: 3em;
   margin-top: 2vw;
 }
 
 .manager-text {
   text-transform: lowercase;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 
 .role-desc {
   text-align: justify;
   text-transform: none !important;
+  font-size: 1.8em;
+  font-weight: 200
 }
 
 .role-title {
   text-align: left;
+  font-size: 1.8em
 }
 
 .row {
@@ -161,4 +166,7 @@ a:hover {
     height: 4em;
   }
 
+  .roles h2 {
+    font-size: 3em;
+  }
 }

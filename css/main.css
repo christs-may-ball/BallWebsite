@@ -127,7 +127,7 @@ h1 {
   min-height: 100vh;
 }
 
-.mlismbp{
+.mlismbp {
   font-size: 1.2em;
   color: white;
   font-weight: 200;
@@ -236,7 +236,11 @@ h1 {
 }
 
 .workers-buttons {
-  margin-top: 2em;
+  bottom: 0;
+
+  position: absolute;
+
+  width: 100%;
 }
 
 .workers button {
@@ -384,8 +388,19 @@ h1 {
   .enquiries h2 {
     font-size: 3em;
   }
-  
+
   .workers .workers-text {
-    width: 22em;    
+    width: 100%;
+    padding-top: 20px;
   }
+
+  .workers h2 {
+    font-size: 3em;
+    padding-top: 40px;
+  }
+
+  .btn {
+    width: 54%;
+  }
+
 }
