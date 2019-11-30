@@ -360,6 +360,16 @@ h1 {
     font-size: 1.16em;
   }
 
+  .landing .title {
+    width: 100%
+  }
+
+  .landing .bottom-line {
+    width: 100%;
+    overflow: unset;
+
+  }
+
   .smoke-header {
     position: fixed;
     opacity: 88%;
