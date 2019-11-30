@@ -35,7 +35,6 @@ a:hover {
   font-weight: 600;
   font-style: normal;
   text-transform: capitalize;
-  width: 15%;
 }
 
 .default {
@@ -153,4 +152,13 @@ a:hover {
 #back-up-icon {
   font-size: 2em;
   margin: 10px 10px 10px 10px
+}
+
+
+@media only screen and (max-device-width: 800px) {
+  .rolelogo {
+    width: 4em;
+    height: 4em;
+  }
+
 }
