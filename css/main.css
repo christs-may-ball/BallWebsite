@@ -10,7 +10,7 @@ body {
   font-style: normal;
   padding: 0;
   margin: 0;
-  background-image: url("resources/ezgif.com-gif-maker.gif");
+  background-image: url("../resources/ezgif.com-gif-maker.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -48,7 +48,7 @@ h1 {
 }
 
 .box-with-text {
-  background-image: url(resources/smoke_header.png);
+  background-image: url(../resources/smoke_header.png);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -118,7 +118,7 @@ h1 {
   background-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-image: url("resources/smoke_bg.png");
+  background-image: url("../resources/smoke_bg.png");
   background-size: cover;
   height: max-content;
   display: inline-block;
@@ -213,15 +213,25 @@ h1 {
   position: relative;
 }
 
-.workers h2 {
-  font-size: 4em;
-}
-
 .workers .workers-text {
+  width: 30em;
+  letter-spacing: 0.2em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.workers h2 {
+  font-size: 3em;
+}
+
+.workers-buttons {
+  margin-top: 2em;
+}
+
+.workers button {
+  margin: 0.3vw;
 }
 
 .btn {
@@ -229,12 +239,13 @@ h1 {
   background-color: transparent;
   color: black;
   padding: 14px 28px;
-  font-size: 16px;
+  font-size: 1.5em;
   cursor: pointer;
   font-family: serenity, sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: capitalize;
+  width: 30%;
 }
 
 .default {
@@ -255,6 +266,20 @@ h1 {
 .header div a {
   color: white;
   z-index: -1000;
+}
+
+/* Roles */
+
+.r-header-div {
+  position: relative;
+  z-index: 10;
+}
+
+.info {
+  text-transform: lowercase;
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
 }
 
 @media only screen and (max-device-width: 800px) {
