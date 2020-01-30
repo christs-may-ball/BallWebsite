@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Christ's May Ball 2020</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" href="https://use.typekit.net/ope1dmm.css" />
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
@@ -16,7 +18,7 @@
     <img class="smoke-header" src="resources/leaves header.png" />
     <div class="nav-container">
       <div class="nav">
-        <a data-scroll href="#enquiries">Tickets</a>
+        <a data-scroll href="#tickets">Tickets</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a data-scroll href="#faqs">FAQs</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -24,13 +26,53 @@
       </div>
     </div>
   </div>
-  <div class="landing" style="height:100vw">
-    <img style="width: 30em; height:30em; margin-top: 10em;position:relative" src="resources/LOGO.png" />
-    <img src="resources/LOGO TEXT.png" style="width: 100vw; height:auto;position:relative" />
-    <div class="line" style="color:#E7B62F">
-      <h2>Christ's may ball 2020 &nbsp;&nbsp;/&nbsp;&nbsp;Tuesday 16th June</h2>
+  <div class="landing" style="height:120vh">
+    <div>
+      <img style="height:40vh; margin-top: 20vh;position:relative" src="resources/LOGO.png" />
+    </div>
+
+
+    <!-- <picture>
+      <source media="(max-width: 800px)" srcset="resources/paradise\ lost\ logo\ mobile.png">
+      <source media="(min-width: 400px)" srcset="resources/LOGO\ TEXT.png">
+      <img src="resources/LOGO TEXT.png" style="max-height:30vh; width:90vw; position:relative" />
+    </picture> -->
+
+    <img class="mobile-img" src="resources/paradise lost logo mobile.png"
+      style="max-height:30vh; width:90vw; position:relative" />
+    <img class="big-img" src="resources/LOGO TEXT.png" style="max-height:30vh; width:90vw; position:relative" />
+
+    <div class="line" style="color:#E7B62F; width:80vw; ;display:inline-block">
+      <h2 style="">Christ's may ball 2020 &nbsp;&nbsp;/&nbsp;&nbsp;Tuesday 16th June</h2>
     </div>
   </div>
+  <div id="tickets" class="tickets">
+    <div style="font-size: 4em;color:#2E2E35">Ticket Release</div>
+    <div>01.02.2020 Christ's Release</div>
+    <div>03.02.2020 General Release</div>
+    <button onclick="window.location.href = 'https://ticketing.christsmayball.com';">BUY NOW</button>
+    <div class="row">
+      <div class="col-sm-3">
+        Standard <br> £160
+      </div>
+      <div class="col-sm-3">
+        Queue Jump <br> £170
+      </div>
+      <div class="col-sm-3">
+        Dining <br> £190
+      </div>
+      <div class="col-sm-3">
+        Access <br> £100
+      </div>
+    </div>
+
+  </div>
+  <div class="faqs-blur"> </div>
+  <div id="faqs" class="faqs">
+    <div style="font-size: 4em;color:white">FAQs</div>
+
+  </div>
+
   <div id="enquiries" class="enquiries">
     <div class="e-header-div">
       <h2 class="e-header">Enquiries</h2>
@@ -40,44 +82,58 @@
       <a href="mailto:president@christsmayball.com">president@christsmayball.com</a>
     </p>
     <div class="container-container-container">
-      <div class="container-container">
-        <div class="container">
+      <div class="row">
+        <div class="col-sm">
           <a class="item" href="mailto:design@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
             <p class="department">art + design</p>
             <p class="head"> chater paul jordan </p>
           </a>
+        </div>
+        <div class="col-sm">
           <a class="item" href="mailto:ents@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
             <p class="department">ents</p>
             <p class="head"> herbie lambden </p>
           </a>
+        </div>
+        <div class="col-sm">
           <a class="item" href="mailto:food@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
             <p class="department">food + drink</p>
             <p class="head"> jessy zhang </p>
           </a>
+        </div>
+        <div class="col-sm">
           <a class="item" href="mailto:logistics@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
             <p class="department">logistics</p>
             <p class="head"> oliver o'brien </p>
           </a>
+        </div>
+        <div class="col-sm">
           <a class="item" href="mailto:publicity@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
             <p class="department">publicity</p>
             <p class="head"> isobel griffiths </p>
           </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
           <a class="item" href="mailto:sponsorship@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
             <p class="department">sponsorship</p>
             <p class="head"> abhiram bibekar </p>
           </a>
+        </div>
+        <div class="col-sm">
           <a class="item" href="mailto:staffing@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
@@ -86,18 +142,24 @@
             </p>
             <p class="head"> diana stoyanova </p>
           </a>
+        </div>
+        <div class="col-sm">
           <a class="item" href="mailto:treasurer@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
             <p class="department">treasurer</p>
             <p class="head"> sanchit agrawal </p>
           </a>
+        </div>
+        <div class="col-sm">
           <a class="item" href="mailto:ticketing@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
             <p class="department">web + ticketing</p>
             <p class="head"> anik roy & dylan phelps </p>
           </a>
+        </div>
+        <div class="col-sm">
           <a class="item" href="mailto:green@christsmayball.com">
             <!-- <i class="far fa-envelope"></i> -->
             <img src="resources/envelope white.svg" />
@@ -107,34 +169,24 @@
         </div>
       </div>
     </div>
-  </div>
-  <div id="workers" class="workers">
-
-    <div class="workers-container">
-      <!-- <h3>applications open in lent term / register interest now</h3> -->
-      <!-- <h3>Workers Applications coming soon</h3> -->
-      <h2>Work for us</h2>
-      <div class="workers-text">
-        <div>
-          / Applications for workers open now /
-        </div>
-        <br>
-
-        Exact shift times TBC but a full shift will be 11 hours, running from the evening of the 16th June 2020 to the
-        next morning. Pay will vary according to position but it will be at least the living wage (£9.30/hr).
-        <br>
-      </div>
-      <div class='workers-buttons'>
-        <a href='workers.html#role-descriptions'><button class="btn default">MORE INFO</button></a>
-        <br>
-        <a href="https://forms.gle/BmAK22uUKEHcB136A"><button class="btn default">APPLY NOW</button></a>
-      </div>
-    </div>
-  </div>
 </body>
 
 <script>
   var scroll = new SmoothScroll('a[href*="#"]');
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
 </script>
 
 </html>

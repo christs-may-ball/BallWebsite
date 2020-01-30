@@ -2,6 +2,10 @@
   scroll-behavior: smooth;
 } */
 
+html {
+  overflow-x:hidden;
+}
+
 body {
   text-align: center;
   text-transform: uppercase;
@@ -10,11 +14,11 @@ body {
   font-style: normal;
   padding: 0;
   margin: 0;
-  background-color: black;
-  background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center;
-}
+  background-image: url("../resources/longwhiteboi.png");
+  background-size:100% 100%;
+ }
 
 h1 {
   line-height: 5vw;
@@ -24,51 +28,17 @@ h1 {
   position: relative;
 }
 
-.landing .bottom-line {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  margin-bottom: 4%;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-  overflow: hidden;
-  white-space: nowrap;
-}
 
-.landing .date {
-  font-size: 2em;
-}
-
-.christs {
-  font-size: 8.5em;
-  margin-bottom: 0;
-  letter-spacing: 0.2em;
-  margin-right: -0.2em;
-}
-
-.box-with-text {
-  background-image: url(../resources/smoke_header.png);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  border: none;
-}
-
-.mayball {
-  padding: 0;
-  margin: 0;
-  font-size: 6vw;
-  letter-spacing: 0.1em;
-  margin-right: -0.1em;
-  font-size: 5.7em;
-}
 
 .landing {
   width: 100%;
+  background-image: url("../resources/dark\ bg.png");
+  background-repeat: no-repeat;
+  background-position: center; 
   text-align: center;
   height: 100%;
   position: relative;
+  background-size:100% 100%;
 }
 
 .landing .title {
@@ -90,11 +60,12 @@ h1 {
 .nav {
   color: white;
   position: fixed;
+  display: block;
   right: 0;
   font-size: 1.5vw;
   text-decoration: none;
-  padding-right: 20px;
   padding-top: 20px;
+  padding-right: 20px;
 }
 
 .nav a {
@@ -106,35 +77,32 @@ h1 {
 }
 
 .smoke-header {
-  width: 100%;
+  width: 100vw;
   position: fixed;
   opacity: 88%;
   pointer-events: none;
-  z-index: 0;
+  z-index: 1;
+}
+
+.tickets{
+  position:relative;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 /* ENQUIRIES */
 .enquiries {
   position: relative;
-  background-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-image: url("../resources/smoke_bg.png");
-  background-size: cover;
   height: max-content;
   display: inline-block;
   width: 100%;
   min-height: 100vh;
 }
 
-.mlismbp {
-  font-size: 1.2em;
-  color: white;
-  font-weight: 200;
-}
-
 .enquiries h2 {
-  color: white;
+  color: #2E2E35;
   font-size: 5vw;
 }
 
@@ -145,11 +113,11 @@ h1 {
 
 .enquiries p {
   font-size: 1.2em;
-  color: white;
+  color: #2E2E35;
 }
 
 .enquiries p a {
-  color: white;
+  color: #2E2E35;
   text-decoration: none;
 }
 
@@ -186,7 +154,7 @@ h1 {
 }
 
 .item {
-  color: white;
+  color: #2E2E35;
   display: inline-block;
   padding: 20px;
   margin: 10px 0 0 1%;
@@ -283,77 +251,6 @@ h1 {
 
 /* Roles */
 
-.roles {
-  position: relative;
-  background-color: black;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-image: url("../resources/smoke_bg.png");
-  background-size: cover;
-  height: max-content;
-  display: inline-block;
-  width: 100%;
-  min-height: 100vh;
-}
-
-.inner {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.roles h2 {
-  color: white;
-  font-size: 5vw;
-}
-
-.roles p {
-  color: white;
-}
-
-.roles p a {
-  color: white;
-  text-decoration: none;
-}
-
-.roles h2 {
-  font-size: 4em;
-}
-
-.r-header-div {
-  position: relative;
-  z-index: 10;
-}
-
-.info {
-  text-transform: lowercase;
-  font-size: 1.5em;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-}
-
-.role {
-  color: white;
-  display: inline-block;
-  padding: 1.5em;
-  margin: 1em 0 0 1%;
-  flex-basis: 15%;
-  flex-grow: 1;
-  text-decoration: none;
-  text-align: center;
-}
-
-.role p {
-  font-size: 1.5em;
-  font-weight: 200;
-}
-
-.rolelogo {
-  width: 9em;
-  height: 9em;
-}
 
 @media only screen and (max-device-width: 800px) {
   .nav {
@@ -397,5 +294,50 @@ h1 {
 
   .btn {
     width: 54%;
+  }
+}
+.mobile-img{
+  visibility: hidden;  
+  height:0px;
+}
+
+.faqs{
+  height:130vh;
+  background-image: url(' ../resources/dark\ bg.png');
+  background-size:100% 100%;
+}
+
+.faqs-blur{
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -o-filter: blur(20px);
+  -ms-filter: blur(20px);
+  filter: blur(20px);
+
+}
+
+@media only screen and (max-device-width: 800px) {
+  body{
+    background-size:auto 100%;
+    overflow-x: hidden;
+  }
+  .faqs{
+    background-size: auto 100%;
+  }
+  .landing{
+    background-size: auto 100%;
+  }
+
+  .big-img{
+    visibility: hidden;  
+    height: 0px;
+  }
+
+  .mobile-img{
+    visibility: visible;
+    height:auto
+  }
+  .smoke-header{
+    height:5em
   }
 }
