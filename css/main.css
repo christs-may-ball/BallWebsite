@@ -10,9 +10,9 @@ body {
   font-style: normal;
   padding: 0;
   margin: 0;
-  background-image: url("../resources/ezgif.com-gif-maker.gif");
+  background-color: black;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
 }
 
@@ -361,34 +361,20 @@ h1 {
   }
 
   .landing .title {
-    width: 100%
+    width: 100%;
   }
 
   .landing .bottom-line {
     width: 100%;
     overflow: unset;
-
-  }
-
-  .smoke-header {
-    position: fixed;
-    opacity: 88%;
-    pointer-events: none;
-    z-index: 0;
-    height: 17vh;
   }
 
   .mayball {
     font-size: 2.55em;
   }
 
-
   .christs {
     font-size: 3.8em;
-  }
-
-  .smoke-header {
-    z-index: 1;
   }
 
   .e-header-div {
@@ -412,5 +398,4 @@ h1 {
   .btn {
     width: 54%;
   }
-
 }
