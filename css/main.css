@@ -87,7 +87,8 @@ h1 {
 .tickets {
   position: relative;
   background-size: cover;
-  min-height: 100vh;
+  padding-bottom: 20vh;
+  padding-top: 10vh;
 }
 
 /* ENQUIRIES */
@@ -103,12 +104,19 @@ h1 {
 
 .enquiries h2 {
   color: #2E2E35;
-  font-size: 5vw;
+  font-size: 4em;
+}
+
+.faqs h2 {
+  color: white;
+  font-size: 4em;
+  margin-top: 25px;
 }
 
 .e-header-div {
   position: relative;
-  z-index: 10;
+  z-index: 1;
+
 }
 
 .enquiries p {
@@ -149,9 +157,6 @@ h1 {
   text-decoration: none;
 }
 
-.enquiries h2 {
-  font-size: 4em;
-}
 
 .item {
   color: #2E2E35;
@@ -258,6 +263,9 @@ h1 {
   height: 130vh;
   background-image: url(' ../resources/dark\ bg.png');
   background-size: 100% 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 .faqs-blur {
@@ -339,7 +347,7 @@ h1 {
 }
 
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (min-device-width: 500px) and (max-device-width: 800px) {
   .landing {
     background-size: auto 100%;
     background-repeat: repeat-x;
