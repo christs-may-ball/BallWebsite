@@ -79,7 +79,7 @@ h1 {
 .smoke-header {
   width: 100vw;
   position: fixed;
-  opacity: 88%;
+  opacity: 99%;
   pointer-events: none;
   z-index: 1;
 }
@@ -302,19 +302,16 @@ h1 {
 }
 
 .faqs{
-  height:130vh;
+  display: block;
+  overflow: auto;
   background-image: url(' ../resources/dark\ bg.png');
   background-size:100% 100%;
+  padding-top: 7vw;
+  padding-bottom: 20vh;
+  min-height: 120vh;
 }
 
-.faqs-blur{
-  -webkit-filter: blur(20px);
-  -moz-filter: blur(20px);
-  -o-filter: blur(20px);
-  -ms-filter: blur(20px);
-  filter: blur(20px);
 
-}
 
 @media only screen and (max-device-width: 800px) {
   body{
@@ -340,4 +337,42 @@ h1 {
   .smoke-header{
     height:5em
   }
+}
+
+div .collapsible {
+  border: none;
+
+}
+div .collapsible-header {
+  background-color: transparent;
+  color: #E7B62F;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 3.5vw;
+  font-weight: 300;
+  line-height: 1em;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+div .collapsible-body {
+  border: none;
+  color: #E7B62F;
+  font-size: 3.5vw;
+  font-weight: 200;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: transparent;
+}
+
+div .collapsible-body p {
+  padding: 0;
+  margin: 0;
 }
