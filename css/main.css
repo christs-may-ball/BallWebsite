@@ -140,9 +140,9 @@ h1 {
 }
 
 .item img {
-  clip-path: circle(100px at center);
+  clip-path: circle(100px at 62% 50%);
   height: auto;
-  width: 25vw;
+  width: 33vw;
 }
 
 
@@ -362,6 +362,9 @@ div .collapsible-body p {
     margin: 0;
   }
 
+  .item img {
+    width: 50vw;
+  }
 }
 
 
@@ -370,6 +373,8 @@ div .collapsible-body p {
     background-size: auto 100%;
     background-repeat: repeat-x;
   }
+
+
 }
 
 @media only screen and (min-device-width: 960px) {
