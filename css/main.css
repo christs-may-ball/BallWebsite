@@ -141,8 +141,9 @@ h1 {
 }
 
 .item img {
-  height: 5vw;
-  width: 8vw;
+  clip-path: circle(100px at 62% 50%);
+  height: auto;
+  width: 33vw;
 }
 
 
@@ -321,11 +322,8 @@ div .collapsible-body p {
     height: auto
   }
 
-  .smoke-header {
-    height: 5em
-  }
 
-  
+
   div .collapsible {
     border: none;
 
@@ -365,6 +363,9 @@ div .collapsible-body p {
     margin: 0;
   }
 
+  .item img {
+    width: 50vw;
+  }
 }
 
 
@@ -372,5 +373,14 @@ div .collapsible-body p {
   .landing {
     background-size: auto 100%;
     background-repeat: repeat-x;
+  }
+
+
+}
+
+@media only screen and (min-device-width: 960px) {
+
+  .smoke-header {
+    top: -3vh;
   }
 }
