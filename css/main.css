@@ -252,6 +252,46 @@ h1 {
 }
 
 
+div .collapsible {
+  border: none;
+  box-shadow: 0 0px 0px black;
+
+}
+
+div .collapsible-header {
+  background-color: transparent;
+  color: #E7B62F;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 3vw;
+  font-weight: 300;
+  line-height: 1em;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+div .collapsible-body {
+  border: none;
+  color: #A1A1A1;
+  font-size: 2vw;
+  font-weight: 200;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: transparent;
+}
+
+div .collapsible-body p {
+  padding: 0;
+  margin: 0;
+}
 
 
 @media only screen and (max-device-width: 800px) {
@@ -283,6 +323,46 @@ h1 {
     height: 5em
   }
 
+  
+  div .collapsible {
+    border: none;
+
+  }
+
+  div .collapsible-header {
+    background-color: transparent;
+    color: #E7B62F;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 3.5vw;
+    font-weight: 300;
+    line-height: 1em;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  div .collapsible-body {
+    border: none;
+    color: #A1A1A1;
+    font-size: 3vw;
+    font-weight: 200;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: transparent;
+  }
+
+  div .collapsible-body p {
+    padding: 0;
+    margin: 0;
+  }
+
 }
 
 
@@ -291,43 +371,4 @@ h1 {
     background-size: auto 100%;
     background-repeat: repeat-x;
   }
-}
-
-div .collapsible {
-  border: none;
-
-}
-
-div .collapsible-header {
-  background-color: transparent;
-  color: #E7B62F;
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 3.5vw;
-  font-weight: 300;
-  line-height: 1em;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-div .collapsible-body {
-  border: none;
-  color: #E7B62F;
-  font-size: 3.5vw;
-  font-weight: 200;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: transparent;
-}
-
-div .collapsible-body p {
-  padding: 0;
-  margin: 0;
 }
