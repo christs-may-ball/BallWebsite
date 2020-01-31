@@ -139,10 +139,10 @@ h1 {
   font-size: 1.2em;
 }
 
-.item img {
+/* .item img {
   height: 5vw;
   width: 8vw;
-}
+} */
 
 
 
@@ -320,11 +320,8 @@ div .collapsible-body p {
     height: auto
   }
 
-  .smoke-header {
-    height: 5em
-  }
 
-  
+
   div .collapsible {
     border: none;
 
@@ -371,5 +368,12 @@ div .collapsible-body p {
   .landing {
     background-size: auto 100%;
     background-repeat: repeat-x;
+  }
+}
+
+@media only screen and (min-device-width: 960px) {
+
+  .smoke-header {
+    top: -3vh;
   }
 }
