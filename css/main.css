@@ -280,7 +280,7 @@ div .collapsible-header {
 
 div .collapsible-body {
   border: none;
-  color: #A1A1A1;
+  color: #D1D1D1;
   font-size: 2vw;
   font-weight: 200;
   overflow: hidden;
@@ -350,7 +350,7 @@ div .collapsible-body p {
 
   div .collapsible-body {
     border: none;
-    color: #A1A1A1;
+    color: #D1D1D1;
     font-size: 3vw;
     font-weight: 200;
     overflow: hidden;
