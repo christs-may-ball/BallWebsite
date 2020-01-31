@@ -85,22 +85,20 @@ h1 {
 }
 
 .tickets {
-  min-height: 100vh;
   position: relative;
   background-size: cover;
   padding-bottom: 20vh;
-  padding-top: 20vh;
 }
 
 /* ENQUIRIES */
 .enquiries {
   position: relative;
   padding-top: 10vh;
-  padding-bottom: 10px;
+  padding-bottom: 10vh;
   height: max-content;
   display: inline-block;
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .enquiries h2 {
@@ -188,12 +186,10 @@ h1 {
 .faqs {
   display: block;
   overflow: auto;
-  min-height: 130vh;
   background-image: url(' ../resources/dark\ bg.png');
   background-size: 100% 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+  padding-top: 7vh;
+  padding-bottom: 20vh;
 }
 
 .faqs-blur {
@@ -255,15 +251,6 @@ h1 {
   height: 0px;
 }
 
-.faqs {
-  display: block;
-  overflow: auto;
-  background-image: url(' ../resources/dark\ bg.png');
-  background-size: 100% 100%;
-  padding-top: 7vw;
-  padding-bottom: 20vh;
-  min-height: 120vh;
-}
 
 
 
