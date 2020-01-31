@@ -139,10 +139,11 @@ h1 {
   font-size: 1.2em;
 }
 
-/* .item img {
-  height: 5vw;
-  width: 8vw;
-} */
+.item img {
+  clip-path: circle(100px at center);
+  height: auto;
+  width: 25vw;
+}
 
 
 
