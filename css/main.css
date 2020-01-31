@@ -264,12 +264,12 @@ div .collapsible-header {
   cursor: pointer;
   margin: 0;
   padding: 0;
-  padding-bottom: 20px;
+  padding-bottom: 5vw;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight: 300;
   line-height: 1em;
 }
@@ -281,7 +281,8 @@ div .collapsible-header {
 div .collapsible-body {
   border: none;
   color: #D1D1D1;
-  font-size: 2vw;
+  padding-top: 0;
+  font-size: 1.5vw;
   font-weight: 200;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
