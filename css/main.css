@@ -85,7 +85,7 @@ h1 {
 }
 
 .tickets {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   background-size: cover;
   padding-bottom: 20vh;
@@ -324,16 +324,17 @@ h1 {
     width: 54%;
   }
 }
-.mobile-img{
-  visibility: hidden;  
-  height:0px;
+
+.mobile-img {
+  visibility: hidden;
+  height: 0px;
 }
 
-.faqs{
+.faqs {
   display: block;
   overflow: auto;
   background-image: url(' ../resources/dark\ bg.png');
-  background-size:100% 100%;
+  background-size: 100% 100%;
   padding-top: 7vw;
   padding-bottom: 20vh;
   min-height: 120vh;
@@ -342,11 +343,12 @@ h1 {
 
 
 @media only screen and (max-device-width: 800px) {
-  body{
-    background-size:auto 100%;
+  body {
+    background-size: auto 100%;
     overflow-x: hidden;
   }
-  .faqs{
+
+  .faqs {
     background-size: auto 100%;
     overflow-x: hidden;
   }
@@ -383,6 +385,7 @@ div .collapsible {
   border: none;
 
 }
+
 div .collapsible-header {
   background-color: transparent;
   color: #E7B62F;
